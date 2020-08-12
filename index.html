@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!--My Css-->
+  <link rel="stylesheet" href="style.css">
+  <title>Java Script Fundamentals Quiz</title>
+</head>
+
+<body>
+  <div id=header class="container w-100 text-center">
+    <h1>JavaScript Quiz</h1>
+    <div id="countdown">
+      <div id="seconds">180</div>
+    </div>
+    <p id="score"></p>
+  </div>
+  <div class=" container w-100 quiz-container text-center">
+    <div id="question-container" class="hide">
+      <p id="question"> Question</p>
+    </div>
+    <div id="choices">
+      <button type="button" data-value="A" id="A"> A </button>
+      <button type="button" data-value="B" id="B"> B </button>
+      <button type="button" data-value="C" id="C"> C </button>
+    </div>
+  </div>
+  </div>
+  <div id="controls" class="container w-100 text-center">
+    <button id="startQuiz">Start Quiz</button>
+    <button id="nextQuestion">Next Question</button>
+    <button id="submitQuiz">Submit Quiz</button>
+  </div>
+  <div id="results" class="container w-100 hide text-center" style="display: none;">
+    <div class="input-group">
+      <label for="userInitals">Enter Initals</label>
+      <input type="text" name="userInitals" id="userInitals" />
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
